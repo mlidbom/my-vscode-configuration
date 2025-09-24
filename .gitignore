@@ -1,3 +1,7 @@
 /globalStorage/*
 /History/*
 /workspaceStorage/*
+/sync/globalState/lastSyncglobalState.json
+/sync/tasks/lastSynctasks.json
+/sync/keybindings/lastSynckeybindings.json
+/sync/settings/lastSyncsettings.json
