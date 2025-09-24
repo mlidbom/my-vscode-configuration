@@ -60,7 +60,7 @@
         "command": "ruff.executeFormat",
         "when": "editorLangId == python"
     },
-    //  navigate
+    //  n  navigate
     {
         "key": "ctrl+d n g",
         "command": "workbench.action.gotoLine"
