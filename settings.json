@@ -11,5 +11,6 @@
     "python.analysis.fixAll": [],
     "python.analysis.autoImportCompletions": true,
     "python.defaultInterpreterPath": "c:\\Users\\magnu\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "explorer.excludeGitIgnore": true
 }

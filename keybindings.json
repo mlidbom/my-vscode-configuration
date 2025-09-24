@@ -49,6 +49,26 @@
     },
     //############## My binding
     {
+        "key": "ctrl+alt+g g g",
+        "command": "workbench.action.tasks.runTask",
+        "args": "gitext-browse-workspace"
+    },
+    {
+        "key": "ctrl+alt+g g s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "gitext-browse-user-config"
+    },
+    {
+        "key": "ctrl+alt+g g c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "gitext-commit-workspace"
+    },
+    {
+        "key": "ctrl+alt+g g s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "gitext-commit-user-config"
+    },
+    {
         "key": "ctrl+shift+s",
         "command": "saveAll"
     },
@@ -97,5 +117,5 @@
         //sacrificial something pointlessl never remove this or the contents of this file will get messed when you edit things in the UI editor
         "key": "ctrl+shift+alt+win+oem_3",
         "command": "rust-analyzer.moveItemUp"
-    },
+    }
 ]

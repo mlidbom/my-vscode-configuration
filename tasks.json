@@ -1,0 +1,67 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        //git extentions workspace tasks
+        {
+            "label": "gitext-browse-workspace",
+            "type": "process",
+            "command": "C:\\Program Files\\GitExtensions\\GitExtensions.exe",
+            "args": [
+                "browse",
+                "${workspaceFolder}"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "gitext-commit-workspace",
+            "type": "process",
+            "command": "C:\\Program Files\\GitExtensions\\GitExtensions.exe",
+            "args": [
+                "commit",
+                "${workspaceFolder}"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        //git extentions user tasks tasks
+        {
+            "label": "gitext-browse-user-config",
+            "type": "process",
+            "command": "C:\\Program Files\\GitExtensions\\GitExtensions.exe",
+            "args": [
+                "browse",
+                "c:\\Users\\magnu\\AppData\\Roaming\\Code\\User\\"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "gitext-commit-user-config",
+            "type": "process",
+            "command": "C:\\Program Files\\GitExtensions\\GitExtensions.exe",
+            "args": [
+                "commit",
+                "c:\\Users\\magnu\\AppData\\Roaming\\Code\\User\\"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
