@@ -1,5 +1,81 @@
 // Place your key bindings in this file to override the defaults
 [
+    //global one-step commands:
+    {
+        "key": "ctrl+shift+s",
+        "command": "saveAll"
+    },
+    //ctrl+alt+g: git mode
+    //  g: browse
+    {
+        "key": "ctrl+alt+g g g",
+        "command": "workbench.action.tasks.runTask",
+        "args": "gitext-browse-workspace"
+    },
+    {
+        "key": "ctrl+alt+g g s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "gitext-browse-user-config"
+    },
+    //  c: commit
+    {
+        "key": "ctrl+alt+g c c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "gitext-commit-workspace"
+    },
+    {
+        "key": "ctrl+alt+g c s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "gitext-commit-user-config"
+    },
+    //ctrl+alt+t: tests mode
+    //  r: run
+    {
+        "key": "ctrl+alt+t r a",
+        "command": "testing.runAll"
+    },
+    {
+        "key": "ctrl+alt+t r l",
+        "command": "testing.reRunLastRun"
+    },
+    //  s: show/open mode
+    {
+        "key": "ctrl+alt+t s r",
+        "command": "testing.showMostRecentOutput",
+        "when": "testing.hasAnyResults"
+    },
+    //############# ctrl+d: document mode
+    {
+        "key": "ctrl+d d",
+        "command": "editor.action.formatDocument.multiple",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+d ctrl+d",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+d ctrl+d",
+        "command": "ruff.executeFormat",
+        "when": "editorLangId == python"
+    },
+    //  navigate
+    {
+        "key": "ctrl+d n g",
+        "command": "workbench.action.gotoLine"
+    },
+    //######################## removed builtins
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-notebook.addFindMatchToSelection",
+        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+    },
     //<removed builtins>
     {
         "key": "ctrl+shift+s",
@@ -47,75 +123,13 @@
         "command": "-editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
-    //############## My binding
     {
-        "key": "ctrl+alt+g g g",
-        "command": "workbench.action.tasks.runTask",
-        "args": "gitext-browse-workspace"
-    },
-    {
-        "key": "ctrl+alt+g g s",
-        "command": "workbench.action.tasks.runTask",
-        "args": "gitext-browse-user-config"
-    },
-    {
-        "key": "ctrl+alt+g g c",
-        "command": "workbench.action.tasks.runTask",
-        "args": "gitext-commit-workspace"
-    },
-    {
-        "key": "ctrl+alt+g g s",
-        "command": "workbench.action.tasks.runTask",
-        "args": "gitext-commit-user-config"
-    },
-    {
-        "key": "ctrl+shift+s",
-        "command": "saveAll"
-    },
-    {
-        "key": "ctrl+alt+t ctrl+alt+r",
-        "command": "testing.runAll"
-    },
-    {
-        "key": "ctrl+alt+t ctrl+alt+c",
-        "command": "testing.reRunLastRun"
-    },
-    //############# document: format
-    {
-        "key": "ctrl+d d",
-        "command": "editor.action.formatDocument.multiple",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "key": "ctrl+d ctrl+d",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "key": "ctrl+d ctrl+d",
-        "command": "ruff.executeFormat",
-        "when": "editorLangId == python"
-    },
-    //######################## removed builtins
-    {
-        "key": "ctrl+oem_1 ctrl+o",
-        "command": "-testing.showMostRecentOutput",
-        "when": "testing.hasAnyResults"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "-editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "-notebook.addFindMatchToSelection",
-        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
     },
     //########################  latest changes mode by the ui editor.......
-    {
-        //sacrificial something pointlessl never remove this or the contents of this file will get messed when you edit things in the UI editor
-        "key": "ctrl+shift+alt+win+oem_3",
-        "command": "rust-analyzer.moveItemUp"
-    }
+    {//don't move this section or the contents of this file will get messed when you edit things in the UI editor
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
 ]
