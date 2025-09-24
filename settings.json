@@ -1,0 +1,15 @@
+{
+    "window.autoDetectColorScheme": true,
+    "dotnet.server.useOmnisharp": true,
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "python.analysis.fixAll": [],
+    "python.analysis.autoImportCompletions": true,
+    "python.defaultInterpreterPath": "c:\\Users\\magnu\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "editor.minimap.enabled": false
+}
