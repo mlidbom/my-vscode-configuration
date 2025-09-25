@@ -5,6 +5,17 @@
         "key": "ctrl+shift+s",
         "command": "saveAll"
     },
+    //context specific escape stuff
+    {
+        "key": "escape",
+        "command": "workbench.action.closeSidebar",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.closePanel",
+        "when": "panelFocus"
+    },
     //ctrl+alt+g: git mode
     //  g: browse
     {
@@ -44,25 +55,25 @@
         "command": "testing.showMostRecentOutput",
         "when": "testing.hasAnyResults"
     },
-    //############# ctrl+d: document mode
+    //############# alt+d: document mode
     {
-        "key": "ctrl+d d",
+        "key": "alt+d d",
         "command": "editor.action.formatDocument.multiple",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
     {
-        "key": "ctrl+d ctrl+d",
+        "key": "alt+d alt+d",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
     {
-        "key": "ctrl+d ctrl+d",
+        "key": "alt+d alt+f",
         "command": "ruff.executeFormat",
         "when": "editorLangId == python"
     },
     //  n  navigate
     {
-        "key": "ctrl+d n g",
+        "key": "alt+d n g",
         "command": "workbench.action.gotoLine"
     },
     //######################## removed builtins
@@ -127,7 +138,7 @@
         "command": "-workbench.action.gotoLine"
     },
     //########################  latest changes mode by the ui editor.......
-    {//don't move this section or the contents of this file will get messed when you edit things in the UI editor
+    { //don't move this section or the contents of this file will get messed when you edit things in the UI editor
         "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
     },
