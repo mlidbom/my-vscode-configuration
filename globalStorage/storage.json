@@ -24,7 +24,7 @@
         ],
         "emptyWindows": []
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 30,
     "theme": "vs",
     "themeBackground": "#ffffff",
     "windowSplash": {
@@ -72,7 +72,7 @@
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
             "sideBarWidth": 451,
-            "auxiliaryBarWidth": 256,
+            "auxiliaryBarWidth": 633,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
