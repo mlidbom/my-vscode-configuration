@@ -22,14 +22,11 @@
         "folders": [
             {
                 "folderUri": "file:///c%3A/Dev/Compze/src"
-            },
-            {
-                "folderUri": "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon"
             }
         ],
         "emptyWindows": []
     },
-    "windowControlHeight": 30,
+    "windowControlHeight": 35,
     "theme": "vs",
     "themeBackground": "#ffffff",
     "windowSplash": {
@@ -54,7 +51,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 451,
+            "sideBarWidth": 556,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -62,8 +59,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon",
-            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\e7413b5b2b2fcd7b8f66c36106a6e978",
+            "folder": "file:///c%3A/Dev/Compze/src",
+            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\6d0b966e4a5793ad37e22131d6dfafdb",
             "uiState": {
                 "mode": 1,
                 "x": 1508,
@@ -76,7 +73,7 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 451,
+            "sideBarWidth": 556,
             "auxiliaryBarWidth": 633,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
@@ -113,6 +110,16 @@
         {
             "location": "dotnet",
             "name": ".Net",
+            "useDefaultFlags": {
+                "settings": true,
+                "keybindings": true,
+                "tasks": true,
+                "mcp": true
+            }
+        },
+        {
+            "location": "resharper",
+            "name": "Resharper",
             "useDefaultFlags": {
                 "settings": true,
                 "keybindings": true,
