@@ -7,3 +7,4 @@
 /sync/settings/lastSyncsettings.json
 *.vscdb
 *.vscdb.backup
+*lastSyncglobalState.json
