@@ -12,3 +12,5 @@
 /sync/python/settings/lastSyncsettings.json
 /sync/profiles/lastSyncprofiles.json
 !globalStorage/storage.json
+**/lastSyncextensions.json
+/sync/dotnet/*

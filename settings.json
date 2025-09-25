@@ -5,10 +5,11 @@
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.defaultColorDecorators": "never",
         "editor.formatOnType": true,
-        "editor.wordBasedSuggestions": "off"
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "charliermarsh.ruff"//from Python profile defaults
     },
-    "python.analysis.fixAll": [],
-    "python.analysis.autoImportCompletions": true,
+    "python.analysis.fixAll": ["source.unusedImports"],//from Python profile defaults
+    "python.analysis.autoImportCompletions": true,//from Python profile defaults
     "python.defaultInterpreterPath": "c:\\Users\\magnu\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
     "explorer.excludeGitIgnore": true,
     "git.confirmSync": false,
