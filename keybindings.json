@@ -16,8 +16,24 @@
         "command": "workbench.action.closePanel",
         "when": "panelFocus"
     },
+    //misc
+    {
+        "key": "ctrl+shift+s",
+        "command": "searchEditorApplyChanges.apply",
+        "when": "editorLangId == 'search-result'"
+    },
     //ctrl+alt+g: git mode
-    //  g: browse
+    {
+        "key": "ctrl+alt+g ctrl+alt+s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "git-stage-all"
+    },
+    {
+        "key": "ctrl+alt+g ctrl+alt+c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "git-commit"
+    },
+    //  g: gitext-browse
     {
         "key": "ctrl+alt+g g g",
         "command": "workbench.action.tasks.runTask",
@@ -28,7 +44,7 @@
         "command": "workbench.action.tasks.runTask",
         "args": "gitext-browse-user-config"
     },
-    //  c: commit
+    //  c: gitext-commit
     {
         "key": "ctrl+alt+g c c",
         "command": "workbench.action.tasks.runTask",

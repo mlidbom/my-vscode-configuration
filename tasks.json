@@ -1,7 +1,14 @@
 {
     "version": "2.0.0",
+    "inputs": [
+        {
+            "id": "commitComment",
+            "description": "Enter commit comment",
+            "type": "promptString"
+        }
+    ],
     "tasks": [
-        //git extentions workspace tasks
+        //gitext-workspace
         {
             "label": "gitext-browse-workspace",
             "type": "process",
@@ -32,7 +39,38 @@
             },
             "problemMatcher": []
         },
-        //git extentions user tasks tasks
+        //git workspace
+        {
+            "label": "git-stage-all",
+            "type": "process",
+            "command": "C:\\Program Files\\Git\\bin\\git.exe",
+            "args": [
+                "stage",
+                "."
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "git-commit",
+            "type": "process",
+            "command": "C:\\Program Files\\Git\\bin\\git.exe",
+            "args": [
+                "commit",
+                "${input:commitComment}"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        //git-ext-user-settings
         {
             "label": "gitext-browse-user-config",
             "type": "process",
