@@ -76,7 +76,6 @@
         "command": "-notebook.addFindMatchToSelection",
         "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
     },
-    //<removed builtins>
     {
         "key": "ctrl+shift+s",
         "command": "-workbench.action.files.saveAs"
