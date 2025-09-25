@@ -9,7 +9,7 @@
             "file:///c%3A/Users/magnu/Dropbox/ProgramFiles/mp3splt_2.6.2": "__default__profile__",
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon": "python",
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon/separate_libraries/queryablecollections": "python",
-            "file:///c%3A/Dev/Compze/src": "dotnet"
+            "file:///c%3A/Dev/Compze/src": "resharper"
         },
         "emptyWindows": {}
     },
@@ -51,7 +51,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 556,
+            "sideBarWidth": 686,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -73,7 +73,7 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 556,
+            "sideBarWidth": 686,
             "auxiliaryBarWidth": 633,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {

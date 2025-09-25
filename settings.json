@@ -16,5 +16,6 @@
     "git.autofetch": true,
     "editor.minimap.enabled": false,
     "editor.showFoldingControls": "always",
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "git.openRepositoryInParentFolders": "always"
 }
