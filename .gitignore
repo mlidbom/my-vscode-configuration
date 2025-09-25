@@ -8,3 +8,5 @@
 *.vscdb
 *.vscdb.backup
 *lastSyncglobalState.json
+/sync/python/tasks/lastSynctasks.json
+/sync/python/settings/lastSyncsettings.json
