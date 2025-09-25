@@ -1,5 +1,4 @@
 {
-    "window.autoDetectColorScheme": true,
     "dotnet.server.useOmnisharp": true,
     "dotnet.codeLens.enableReferencesCodeLens": false,
     "[python]": {
@@ -15,5 +14,6 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "editor.minimap.enabled": false,
-    "editor.showFoldingControls": "always"
+    "editor.showFoldingControls": "always",
+    "window.autoDetectColorScheme": true
 }
