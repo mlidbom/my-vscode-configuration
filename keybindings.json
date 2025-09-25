@@ -11,6 +11,12 @@
         "command": "workbench.action.gotoSymbol",
         "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
     },
+    //ctrl+r refactor
+    {
+        "key": "ctrl+r ctrl+r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
     //context specific escape stuff
     {
         "key": "escape",
@@ -163,6 +169,15 @@
         "key": "ctrl+shift+o",
         "command": "-workbench.action.gotoSymbol",
         "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "f2",
+        "command": "-editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
     //########################  latest changes mode by the ui editor.......
     { //don't move this section or the contents of this file will get messed when you edit things in the UI editor
