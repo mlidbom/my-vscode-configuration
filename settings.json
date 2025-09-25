@@ -14,5 +14,6 @@
     "explorer.excludeGitIgnore": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.showFoldingControls": "always"
 }
