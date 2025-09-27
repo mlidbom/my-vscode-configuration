@@ -43,7 +43,8 @@
     {
         "key": "shift+alt+r shift+alt+r",
         "command": "workbench.action.tasks.runTask",
-        "args": "ruff-fix-current-file-unsafe"
+        "args": "ruff-fix-current-file-unsafe",
+        "when": "editorLangId == python"
     },
     //ctrl+alt+g: git mode
     {
