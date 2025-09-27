@@ -17,12 +17,9 @@
                 "browse",
                 "${workspaceFolder}"
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         },
         {
             "label": "gitext-commit-workspace",
@@ -32,12 +29,9 @@
                 "commit",
                 "${workspaceFolder}"
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         },
         //Ruff
         {
@@ -49,12 +43,9 @@
                 "--fix",
                 "--unsafe-fixes"
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         },
         {
             "label": "ruff-fix-current-file-unsafe",
@@ -66,12 +57,9 @@
                 "--unsafe-fixes",
                 "${relativeFile}"
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         },
         //git workspace
         {
@@ -82,12 +70,9 @@
                 "stage",
                 "."
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         },
         {
             "label": "git-commit",
@@ -99,12 +84,9 @@
                 "--message",
                 "${input:commitComment}"
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         },
         {
             "label": "git-push",
@@ -113,12 +95,9 @@
             "args": [
                 "push"
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         },
         //git-ext-user-settings
         {
@@ -129,12 +108,9 @@
                 "browse",
                 "c:\\Users\\magnu\\AppData\\Roaming\\Code\\User\\"
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         },
         {
             "label": "gitext-commit-user-config",
@@ -144,12 +120,9 @@
                 "commit",
                 "c:\\Users\\magnu\\AppData\\Roaming\\Code\\User\\"
             ],
-            "group": "none",
             "presentation": {
                 "reveal": "never",
-                "panel": "shared"
             },
-            "problemMatcher": []
         }
     ]
 }
