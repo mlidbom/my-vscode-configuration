@@ -13,13 +13,13 @@
         "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     },
     {
-        "key": "ctrl+shift+s ctrl+shift+d",
+        "key": "ctrl+shift+s ctrl+shift+t",
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus"
     },
     //  peek:
     {
-        "key": "ctrl+shift+s d",
+        "key": "ctrl+shift+s t",
         "command": "editor.action.peekDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     },
