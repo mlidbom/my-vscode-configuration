@@ -62,7 +62,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 302,
+            "sideBarWidth": 0,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -104,7 +104,7 @@
                     "auxiliaryBarVisible": false
                 },
                 "662729a9d1cf8ac4b6ba5ac38911ea75": {
-                    "sideBarVisible": true,
+                    "sideBarVisible": false,
                     "auxiliaryBarVisible": false
                 }
             }

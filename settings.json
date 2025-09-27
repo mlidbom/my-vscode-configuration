@@ -23,5 +23,10 @@
     "github.copilot.chat.codesearch.enabled": true,
     "testing.automaticallyOpenPeekView": "failureAnywhere",
     "testing.automaticallyOpenTestResults": "openOnTestFailure",
-    "testing.coverageToolbarEnabled": true
+    "testing.coverageToolbarEnabled": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true
 }
