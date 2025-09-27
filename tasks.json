@@ -61,6 +61,8 @@
             "command": "C:\\Program Files\\Git\\bin\\git.exe",
             "args": [
                 "commit",
+                "--all",
+                "--message",
                 "${input:commitComment}"
             ],
             "group": "none",
