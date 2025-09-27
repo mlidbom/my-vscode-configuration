@@ -5,8 +5,8 @@
         "key": "ctrl+shift+s",
         "command": "saveAll"
     },
-    //ctrl+shift+n navigate
-    //Global
+    //navigate
+    //ctrl+shift+n Global
     {
         "key": "ctrl+shift+n ctrl+shift+f",
         "command": "workbench.action.quickOpen"
