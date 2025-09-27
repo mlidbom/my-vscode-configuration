@@ -70,6 +70,20 @@
             },
             "problemMatcher": []
         },
+        {
+            "label": "git-push",
+            "type": "process",
+            "command": "C:\\Program Files\\Git\\bin\\git.exe",
+            "args": [
+                "push"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
         //git-ext-user-settings
         {
             "label": "gitext-browse-user-config",

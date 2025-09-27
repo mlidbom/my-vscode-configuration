@@ -14,8 +14,11 @@
     "explorer.excludeGitIgnore": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "editor.minimap.enabled": false,
     "editor.showFoldingControls": "always",
     "window.autoDetectColorScheme": true,
-    "git.openRepositoryInParentFolders": "always"
+    "git.openRepositoryInParentFolders": "always",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "workbench.sideBar.location": "right",
+    "github.copilot.chat.codesearch.enabled": true
 }

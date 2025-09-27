@@ -45,6 +45,11 @@
         "command": "workbench.action.tasks.runTask",
         "args": "git-commit"
     },
+    {
+        "key": "ctrl+alt+g ctrl+alt+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "git-push"
+    },
     //  g: gitext-browse
     {
         "key": "ctrl+alt+g g g",
