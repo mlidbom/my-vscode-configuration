@@ -9,9 +9,13 @@
             "file:///c%3A/Users/magnu/Dropbox/ProgramFiles/mp3splt_2.6.2": "__default__profile__",
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon": "python",
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon/separate_libraries/queryablecollections": "python",
+            "file:///c%3A/Dev/typed-linq-collections": "python",
             "file:///c%3A/Dev/Compze/src": "dotnet"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1758999435616": "python",
+            "1758999441388": "python"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "19df1015cd282cdf32fa530b6d6086bfcf3808f48df3a12f3bd1e815e814cd44",
@@ -21,10 +25,17 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon"
+                "folderUri": "file:///c%3A/Dev/typed-linq-collections"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1758999435616"
+            },
+            {
+                "backupFolder": "1758999441388"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "theme": "vs-dark",
@@ -51,37 +62,37 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 543,
-            "auxiliaryBarWidth": 0,
+            "sideBarWidth": 302,
+            "auxiliaryBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon",
-            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\e7413b5b2b2fcd7b8f66c36106a6e978",
+            "folder": "file:///c%3A/Dev/typed-linq-collections",
+            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\332147fa443bbc4acbbcc070bb77d0c5",
             "uiState": {
                 "mode": 0,
-                "x": 1292,
-                "y": 264,
-                "width": 1538,
-                "height": 1730
+                "x": 0,
+                "y": 3,
+                "width": 1540,
+                "height": 1732
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 543,
-            "auxiliaryBarWidth": 666,
+            "sideBarWidth": 302,
+            "auxiliaryBarWidth": 170,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 },
                 "d58fea9815ee90088f860445c608c89d": {
-                    "sideBarVisible": true,
+                    "sideBarVisible": false,
                     "auxiliaryBarVisible": false
                 },
                 "d4f439bb3dc58c908fb634b299aa9714": {
@@ -91,6 +102,10 @@
                 "62697b9e8ec8e6faf795f4339a9e8e84": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
+                },
+                "662729a9d1cf8ac4b6ba5ac38911ea75": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
                 }
             }
         }
@@ -101,10 +116,10 @@
             "name": "Python",
             "icon": "snake",
             "useDefaultFlags": {
-                "mcp": true,
                 "tasks": true,
                 "keybindings": true,
-                "settings": true
+                "settings": true,
+                "mcp": true
             }
         },
         {
