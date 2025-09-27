@@ -135,7 +135,6 @@
         "when": "editorLangId == python"
     },
     //######################## conflicting removed builtins
-
     //########################  latest changes mode by the ui editor.......
     { //don't move this section or the contents of this file will get messed up when you edit things in the UI editor
         "key": "ctrl+n",
