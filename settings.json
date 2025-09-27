@@ -20,5 +20,8 @@
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "workbench.sideBar.location": "right",
-    "github.copilot.chat.codesearch.enabled": true
+    "github.copilot.chat.codesearch.enabled": true,
+    "testing.automaticallyOpenPeekView": "failureAnywhere",
+    "testing.automaticallyOpenTestResults": "openOnTestFailure",
+    "testing.coverageToolbarEnabled": true
 }

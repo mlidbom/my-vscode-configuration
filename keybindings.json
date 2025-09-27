@@ -5,15 +5,38 @@
         "key": "ctrl+shift+s",
         "command": "saveAll"
     },
-    //alt+n navigate
+    //ctrl+shift+n navigate
+    //Global
     {
-        "key": "alt+n alt+s",
+        "key": "ctrl+shift+n ctrl+shift+f",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+n ctrl+shift+s",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+shift+n ctrl+shift+n",
+        "command": "workbench.action.showCommands"
+    },
+    // in file
+    {
+        "key": "ctrl+shift+n s",
         "command": "workbench.action.gotoSymbol",
         "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
     },
-    //ctrl+r refactor
     {
-        "key": "ctrl+r ctrl+r",
+        "key": "ctrl+shift+n ctrl+shift+l",
+        "command": "workbench.action.gotoLine"
+    },
+    //ctrl+shift+r 
+    {
+        "key": "ctrl+shift+r r",
+        "command": "editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+r ctrl+shift+r",
         "command": "editor.action.rename",
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
@@ -100,105 +123,22 @@
         "command": "testing.showMostRecentOutput",
         "when": "testing.hasAnyResults"
     },
-    //############# alt+d: document mode
+    //############# alt+d: document/current-file mode
     {
-        "key": "alt+d d",
-        "command": "editor.action.formatDocument.multiple",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "key": "alt+d alt+d",
+        "key": "shift+ctrl+d shift+ctrl+d",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
     {
-        "key": "alt+d alt+f",
+        "key": "shift+ctrl+d shift+ctrl+r",
         "command": "ruff.executeFormat",
         "when": "editorLangId == python"
     },
-    //  n  navigate
-    {
-        "key": "alt+d n g",
-        "command": "workbench.action.gotoLine"
-    },
-    //######################## removed builtins
-    {
-        "key": "ctrl+d",
-        "command": "-editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "-notebook.addFindMatchToSelection",
-        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
-    },
-    {
-        "key": "ctrl+shift+s",
-        "command": "-workbench.action.files.saveAs"
-    },
-    {
-        "key": "ctrl+shift+s",
-        "command": "-workbench.action.files.saveLocalFile",
-        "when": "remoteFileDialogVisible"
-    },
-    {
-        "key": "ctrl+k s",
-        "command": "-saveAll"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-workbench.debug.viewlet.action.addFunctionBreakpointAction"
-    },
-    {
-        "key": "ctrl+i",
-        "command": "-editor.action.triggerSuggest",
-        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
-    },
-    {
-        "key": "ctrl+oem_1 l",
-        "command": "-testing.reRunLastRun"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "-editor.action.formatDocument.none",
-        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
-    },
-    {
-        "key": "ctrl+k ctrl+f",
-        "command": "-editor.action.formatSelection",
-        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "-notebook.formatCell",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "-editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "key": "ctrl+g",
-        "command": "-workbench.action.gotoLine"
-    },
-    {
-        "key": "ctrl+shift+o",
-        "command": "-workbench.action.gotoSymbol",
-        "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "-workbench.action.openRecent"
-    },
-    {
-        "key": "f2",
-        "command": "-editor.action.rename",
-        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
-    },
+    //######################## conflicting removed builtins
+
     //########################  latest changes mode by the ui editor.......
     { //don't move this section or the contents of this file will get messed when you edit things in the UI editor
         "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
-    },
+    }
 ]
