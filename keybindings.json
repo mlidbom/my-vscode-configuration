@@ -5,8 +5,39 @@
         "key": "ctrl+shift+s",
         "command": "saveAll"
     },
-    //navigate
-    //ctrl+shift+n Global
+    //shift+ctrl s: symbol navigation
+    //  goto:
+    {
+        "key": "ctrl+shift+s ctrl+shift+r",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+shift+s ctrl+shift+d",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    //  peek:
+    {
+        "key": "ctrl+shift+s d",
+        "command": "editor.action.peekDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+shift+s c",
+        "command": "editor.action.peekImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+shift+s ctrl+shift+c",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+s r",
+        "command": "editor.action.referenceSearch.trigger"
+    },
+    //ctrl+shift+n Global navigation
     {
         "key": "ctrl+shift+n ctrl+shift+f",
         "command": "workbench.action.quickOpen"
@@ -134,10 +165,15 @@
         "command": "ruff.executeFormat",
         "when": "editorLangId == python"
     },
+    //Fixes for builtins I've made unavailable:
+    {
+        "key": "ctrl+shift+s ctrl+shift+s",
+        "command": "saveAll"
+    },
     //######################## conflicting removed builtins
     //########################  latest changes mode by the ui editor.......
     { //don't move this section or the contents of this file will get messed up when you edit things in the UI editor
         "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
-    }
+    },
 ]

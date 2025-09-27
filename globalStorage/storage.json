@@ -63,7 +63,7 @@
             "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 302,
-            "auxiliaryBarWidth": 170,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -73,11 +73,11 @@
             "folder": "file:///c%3A/Dev/typed-linq-collections",
             "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\332147fa443bbc4acbbcc070bb77d0c5",
             "uiState": {
-                "mode": 0,
-                "x": 0,
-                "y": 3,
-                "width": 1540,
-                "height": 1732
+                "mode": 1,
+                "x": 1536,
+                "y": 0,
+                "width": 1536,
+                "height": 1728
             }
         },
         "openedWindows": []
@@ -105,7 +105,7 @@
                 },
                 "662729a9d1cf8ac4b6ba5ac38911ea75": {
                     "sideBarVisible": true,
-                    "auxiliaryBarVisible": true
+                    "auxiliaryBarVisible": false
                 }
             }
         }
