@@ -39,6 +39,40 @@
             },
             "problemMatcher": []
         },
+        //Ruff
+        {
+            "label": "ruff-fix-all-files-unsafe",
+            "type": "process",
+            "command": "${workspaceFolder}\\venv\\Scripts\\ruff.exe",
+            "args": [
+                "check",
+                "--fix",
+                "--unsafe-fixes"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "ruff-fix-current-file-unsafe",
+            "type": "process",
+            "command": "${workspaceFolder}\\venv\\Scripts\\ruff.exe",
+            "args": [
+                "check",
+                "--fix",
+                "--unsafe-fixes",
+                "${relativeFile}"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
         //git workspace
         {
             "label": "git-stage-all",

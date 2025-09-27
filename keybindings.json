@@ -34,6 +34,17 @@
         "command": "searchEditorApplyChanges.apply",
         "when": "editorLangId == 'search-result'"
     },
+    //Ruff
+    {
+        "key": "shift+alt+r shift+alt+c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "ruff-fix-all-files-unsafe"
+    },
+    {
+        "key": "shift+alt+r shift+alt+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "ruff-fix-current-file-unsafe"
+    },
     //ctrl+alt+g: git mode
     {
         "key": "ctrl+alt+g ctrl+alt+s",
