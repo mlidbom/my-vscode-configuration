@@ -9,7 +9,7 @@
             "file:///c%3A/Users/magnu/Dropbox/ProgramFiles/mp3splt_2.6.2": "__default__profile__",
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon": "python",
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon/separate_libraries/queryablecollections": "python",
-            "file:///c%3A/Dev/Compze/src": "resharper"
+            "file:///c%3A/Dev/Compze/src": "dotnet"
         },
         "emptyWindows": {}
     },
@@ -21,37 +21,37 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/Dev/Compze/src"
+                "folderUri": "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon"
             }
         ],
         "emptyWindows": []
     },
     "windowControlHeight": 35,
-    "theme": "vs",
-    "themeBackground": "#ffffff",
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
     "windowSplash": {
         "zoomLevel": 0,
-        "baseTheme": "vs",
+        "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#3b3b3b",
-            "background": "#ffffff",
-            "editorBackground": "#ffffff",
-            "titleBarBackground": "#f8f8f8",
-            "titleBarBorder": "#e5e5e5",
-            "activityBarBackground": "#f8f8f8",
-            "activityBarBorder": "#e5e5e5",
-            "sideBarBackground": "#f8f8f8",
-            "sideBarBorder": "#e5e5e5",
-            "statusBarBackground": "#f8f8f8",
-            "statusBarBorder": "#e5e5e5",
-            "statusBarNoFolderBackground": "#f8f8f8"
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
         },
         "layoutInfo": {
-            "sideBarSide": "left",
+            "sideBarSide": "right",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 686,
+            "sideBarWidth": 543,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -59,22 +59,22 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Dev/Compze/src",
-            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\6d0b966e4a5793ad37e22131d6dfafdb",
+            "folder": "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon",
+            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\e7413b5b2b2fcd7b8f66c36106a6e978",
             "uiState": {
                 "mode": 0,
-                "x": 1508,
-                "y": 0,
-                "width": 1564,
-                "height": 1728
+                "x": 1292,
+                "y": 264,
+                "width": 1538,
+                "height": 1730
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 686,
-            "auxiliaryBarWidth": 633,
+            "sideBarWidth": 543,
+            "auxiliaryBarWidth": 666,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
