@@ -170,4 +170,9 @@
         "key": "ctrl+shift+s",
         "command": "saveAll"
     },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
 ]

@@ -26,6 +26,9 @@
         "folders": [
             {
                 "folderUri": "file:///c%3A/Dev/typed-linq-collections"
+            },
+            {
+                "folderUri": "file:///c%3A/Dev/Compze/src"
             }
         ],
         "emptyWindows": [
@@ -62,7 +65,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 1075,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -73,19 +76,19 @@
             "folder": "file:///c%3A/Dev/typed-linq-collections",
             "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\332147fa443bbc4acbbcc070bb77d0c5",
             "uiState": {
-                "mode": 1,
-                "x": 1536,
-                "y": 0,
-                "width": 1536,
-                "height": 1728
+                "mode": 0,
+                "x": 760,
+                "y": 131,
+                "width": 1540,
+                "height": 1732
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 302,
-            "auxiliaryBarWidth": 170,
+            "sideBarWidth": 1075,
+            "auxiliaryBarWidth": 507,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
@@ -104,7 +107,7 @@
                     "auxiliaryBarVisible": false
                 },
                 "662729a9d1cf8ac4b6ba5ac38911ea75": {
-                    "sideBarVisible": false,
+                    "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }
             }
