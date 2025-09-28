@@ -12,10 +12,7 @@
             "file:///c%3A/Dev/typed-linq-collections": "python",
             "file:///c%3A/Dev/Compze/src": "dotnet"
         },
-        "emptyWindows": {
-            "1758999435616": "python",
-            "1758999441388": "python"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "19df1015cd282cdf32fa530b6d6086bfcf3808f48df3a12f3bd1e815e814cd44",
@@ -26,19 +23,9 @@
         "folders": [
             {
                 "folderUri": "file:///c%3A/Dev/typed-linq-collections"
-            },
-            {
-                "folderUri": "file:///c%3A/Dev/Compze/src"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1758999435616"
-            },
-            {
-                "backupFolder": "1758999441388"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "theme": "vs-dark",
@@ -65,8 +52,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 1075,
-            "auxiliaryBarWidth": 0,
+            "sideBarWidth": 660,
+            "auxiliaryBarWidth": 888,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -78,17 +65,17 @@
             "uiState": {
                 "mode": 0,
                 "x": 760,
-                "y": 131,
+                "y": 130,
                 "width": 1540,
-                "height": 1732
+                "height": 1734
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 1075,
-            "auxiliaryBarWidth": 507,
+            "sideBarWidth": 660,
+            "auxiliaryBarWidth": 888,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
@@ -108,7 +95,7 @@
                 },
                 "662729a9d1cf8ac4b6ba5ac38911ea75": {
                     "sideBarVisible": true,
-                    "auxiliaryBarVisible": false
+                    "auxiliaryBarVisible": true
                 }
             }
         }
