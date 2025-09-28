@@ -31,7 +31,8 @@
     "python.analysis.inlayHints.variableTypes": true,
     "github.copilot.nextEditSuggestions.enabled": true,
     "chat.tools.terminal.autoApprove": {
-        
-        ".\\venv\\Scripts\\python.exe": true
+        ".\\venv\\Scripts\\python.exe": true,
+        "git checkout": true,
+        "python": true
     }
 }
