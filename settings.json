@@ -36,7 +36,9 @@
         "python": true,
         "venv\\Scripts\\ruff.exe": true,
         "venv\\Scripts\\python.exe": true,
-        "C:/Dev/typed-linq-collections/venv/Scripts/python.exe": true
+        "C:/Dev/typed-linq-collections/venv/Scripts/python.exe": true,
+        "dotnet build": true,
+        "Copy-Item": true
     },
     "chat.agent.maxRequests": 50
 }
