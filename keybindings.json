@@ -186,4 +186,14 @@
         "key": "shift+alt+l",
         "command": "workbench.files.action.showActiveFileInExplorer"
     },
+    {
+        "key": "ctrl+alt+t ctrl+alt+f",
+        "command": "testing.runCurrentFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+oem_1 f",
+        "command": "-testing.runCurrentFile",
+        "when": "editorTextFocus"
+    },
 ]
