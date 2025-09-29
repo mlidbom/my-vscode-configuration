@@ -160,6 +160,10 @@
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
     //######################## conflicting removed builtins
+    {
+        "key": "ctrl+r",//was constantly running this by accident
+        "command": "-workbench.action.openRecent"
+    },
     //########################  latest changes mode by the ui editor.......
     { //don't move this section or the contents of this file will get messed up when you edit things in the UI editor
         "key": "ctrl+n",
@@ -177,5 +181,9 @@
     {
         "key": "ctrl+shift+alt+f",
         "command": "search.action.openEditor"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "workbench.files.action.showActiveFileInExplorer"
     },
 ]
