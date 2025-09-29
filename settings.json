@@ -35,6 +35,8 @@
         "git checkout": true,
         "python": true,
         "venv\\Scripts\\ruff.exe": true,
-        "venv\\Scripts\\python.exe": true
-    }
+        "venv\\Scripts\\python.exe": true,
+        "C:/Dev/typed-linq-collections/venv/Scripts/python.exe": true
+    },
+    "chat.agent.maxRequests": 50
 }

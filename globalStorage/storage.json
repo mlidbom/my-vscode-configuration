@@ -8,7 +8,6 @@
             "file:///c%3A/Users/magnu/Dropbox/ProgramFiles/mp3gainBatchNormalizer-master": "__default__profile__",
             "file:///c%3A/Users/magnu/Dropbox/ProgramFiles/mp3splt_2.6.2": "__default__profile__",
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon": "python",
-            "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon/separate_libraries/queryablecollections": "python",
             "file:///c%3A/Dev/typed-linq-collections": "python",
             "file:///c%3A/Dev/Compze/src": "dotnet"
         },
@@ -52,8 +51,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 660,
-            "auxiliaryBarWidth": 888,
+            "sideBarWidth": 727,
+            "auxiliaryBarWidth": 700,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -64,9 +63,9 @@
             "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\332147fa443bbc4acbbcc070bb77d0c5",
             "uiState": {
                 "mode": 0,
-                "x": 760,
-                "y": 130,
-                "width": 1540,
+                "x": 800,
+                "y": 366,
+                "width": 1542,
                 "height": 1734
             }
         },
@@ -74,8 +73,8 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 660,
-            "auxiliaryBarWidth": 888,
+            "sideBarWidth": 727,
+            "auxiliaryBarWidth": 700,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
@@ -96,6 +95,10 @@
                 "662729a9d1cf8ac4b6ba5ac38911ea75": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": true
+                },
+                "ba023429fa17721a1d6339836206ac45": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
                 }
             }
         }
