@@ -80,6 +80,10 @@
     //misc
     {
         "key": "ctrl+shift+s",
+        "command": "saveAll"
+    },
+    {
+        "key": "ctrl+shift+alt+s",
         "command": "searchEditorApplyChanges.apply",
         "when": "editorLangId == 'search-result'"
     },
@@ -155,11 +159,6 @@
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
-    {
-        "key": "shift+ctrl+d shift+ctrl+r",
-        "command": "ruff.executeFormat",
-        "when": "editorLangId == python"
-    },
     //######################## conflicting removed builtins
     //########################  latest changes mode by the ui editor.......
     { //don't move this section or the contents of this file will get messed up when you edit things in the UI editor
@@ -167,12 +166,16 @@
         "command": "-workbench.action.files.newUntitledFile"
     },
     {
-        "key": "ctrl+shift+s",
-        "command": "saveAll"
-    },
-    {
         "key": "alt+enter",
         "command": "editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "search.action.openEditor"
     },
 ]
