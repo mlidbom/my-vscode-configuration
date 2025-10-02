@@ -22,9 +22,6 @@
         "folders": [
             {
                 "folderUri": "file:///c%3A/Dev/typed-linq-collections"
-            },
-            {
-                "folderUri": "file:///c%3A/Dev/Compze/src"
             }
         ],
         "emptyWindows": []
@@ -54,30 +51,30 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 686,
-            "auxiliaryBarWidth": 862,
+            "sideBarWidth": 727,
+            "auxiliaryBarWidth": 700,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Dev/Compze/src",
-            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\6d0b966e4a5793ad37e22131d6dfafdb",
+            "folder": "file:///c%3A/Dev/typed-linq-collections",
+            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\332147fa443bbc4acbbcc070bb77d0c5",
             "uiState": {
                 "mode": 0,
                 "x": 800,
-                "y": 366,
-                "width": 1542,
-                "height": 1734
+                "y": 364,
+                "width": 1544,
+                "height": 1736
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 686,
-            "auxiliaryBarWidth": 862,
+            "sideBarWidth": 727,
+            "auxiliaryBarWidth": 700,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
@@ -96,8 +93,8 @@
                     "auxiliaryBarVisible": true
                 },
                 "662729a9d1cf8ac4b6ba5ac38911ea75": {
-                    "sideBarVisible": false,
-                    "auxiliaryBarVisible": false
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
                 },
                 "ba023429fa17721a1d6339836206ac45": {
                     "sideBarVisible": true,
