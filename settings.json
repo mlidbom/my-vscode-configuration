@@ -6,7 +6,7 @@
         "editor.defaultColorDecorators": "never",
         "editor.formatOnType": true,
         "editor.wordBasedSuggestions": "off",
-        "editor.defaultFormatter": "charliermarsh.ruff"//from Python profile defaults
+       // "editor.defaultFormatter": "charliermarsh.ruff"//from Python profile defaults
     },
     "python.analysis.fixAll": ["source.unusedImports"],//from Python profile defaults
     "python.analysis.autoImportCompletions": true,//from Python profile defaults
@@ -30,15 +30,10 @@
     "python.analysis.inlayHints.pytestParameters": true,
     "python.analysis.inlayHints.variableTypes": true,
     "github.copilot.nextEditSuggestions.enabled": true,
+    "chat.tools.terminal.denyList": [],
     "chat.tools.terminal.autoApprove": {
-        ".\\venv\\Scripts\\python.exe": true,
-        "git checkout": true,
-        "python": true,
-        "venv\\Scripts\\ruff.exe": true,
-        "venv\\Scripts\\python.exe": true,
-        "C:/Dev/typed-linq-collections/venv/Scripts/python.exe": true,
-        "dotnet build": true,
-        "Copy-Item": true
+        "/.*/": true,
+        "pwsh": true
     },
     "chat.agent.maxRequests": 50
 }
