@@ -196,4 +196,8 @@
         "command": "-testing.runCurrentFile",
         "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+shift+d d",
+        "command": "pylance.foldDocstrings"
+    },
 ]
