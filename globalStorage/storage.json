@@ -9,7 +9,8 @@
             "file:///c%3A/Users/magnu/Dropbox/ProgramFiles/mp3splt_2.6.2": "__default__profile__",
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon": "python",
             "file:///c%3A/Dev/typed-linq-collections": "python",
-            "file:///c%3A/Dev/Compze/src": "dotnet"
+            "file:///c%3A/Dev/Compze/src": "dotnet",
+            "file:///c%3A/Dev/Compze": "dotnet"
         },
         "emptyWindows": {}
     },
@@ -21,7 +22,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/Dev/typed-linq-collections"
+                "folderUri": "file:///c%3A/Dev/Compze"
             }
         ],
         "emptyWindows": []
@@ -51,30 +52,30 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 727,
-            "auxiliaryBarWidth": 700,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 762,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Dev/typed-linq-collections",
-            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\332147fa443bbc4acbbcc070bb77d0c5",
+            "folder": "file:///c%3A/Dev/Compze",
+            "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\0f7658eda6d917265733a796012bf2fb",
             "uiState": {
                 "mode": 0,
-                "x": 800,
-                "y": 364,
-                "width": 1544,
-                "height": 1736
+                "x": 892,
+                "y": 8,
+                "width": 2164,
+                "height": 1744
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 727,
-            "auxiliaryBarWidth": 700,
+            "sideBarWidth": 1617,
+            "auxiliaryBarWidth": 762,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
@@ -93,12 +94,16 @@
                     "auxiliaryBarVisible": true
                 },
                 "662729a9d1cf8ac4b6ba5ac38911ea75": {
-                    "sideBarVisible": true,
+                    "sideBarVisible": false,
                     "auxiliaryBarVisible": true
                 },
                 "ba023429fa17721a1d6339836206ac45": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
+                },
+                "e6966da8d049502916181b135ca54848": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
                 }
             }
         }

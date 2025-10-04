@@ -24,7 +24,7 @@
         {
             "label": "gitext-commit-workspace",
             "type": "process",
-            "command": "C:\\Program Files\\GitExtensions\\GitExtensions.exe",
+            "command": "C:\\Program Files\\SmartGit\\bin\\smartgit.exe",
             "args": [
                 "commit",
                 "${workspaceFolder}"
@@ -115,7 +115,7 @@
         {
             "label": "gitext-commit-user-config",
             "type": "process",
-            "command": "C:\\Program Files\\GitExtensions\\GitExtensions.exe",
+            "command": "C:\\Program Files\\SmartGit\\bin\\smartgit.exe",
             "args": [
                 "commit",
                 "c:\\Users\\magnu\\AppData\\Roaming\\Code\\User\\"

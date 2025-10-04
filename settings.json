@@ -6,10 +6,12 @@
         "editor.defaultColorDecorators": "never",
         "editor.formatOnType": true,
         "editor.wordBasedSuggestions": "off",
-       // "editor.defaultFormatter": "charliermarsh.ruff"//from Python profile defaults
+        // "editor.defaultFormatter": "charliermarsh.ruff"//from Python profile defaults
     },
-    "python.analysis.fixAll": ["source.unusedImports"],//from Python profile defaults
-    "python.analysis.autoImportCompletions": true,//from Python profile defaults
+    "python.analysis.fixAll": [
+        "source.unusedImports"
+    ], //from Python profile defaults
+    "python.analysis.autoImportCompletions": true, //from Python profile defaults
     "python.defaultInterpreterPath": "c:\\Users\\magnu\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
     "explorer.excludeGitIgnore": true,
     "git.confirmSync": false,
@@ -30,10 +32,13 @@
     "python.analysis.inlayHints.pytestParameters": true,
     "python.analysis.inlayHints.variableTypes": true,
     "github.copilot.nextEditSuggestions.enabled": true,
-    "chat.tools.terminal.denyList": [],
     "chat.tools.terminal.autoApprove": {
-        "/.*/": true,
-        "pwsh": true
+        "Remove-Item": null,
+        "/.*/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     },
-    "chat.agent.maxRequests": 50
+    "chat.agent.maxRequests": 50,
+    "chat.tools.terminal.shellIntegrationTimeout": 60000
 }
