@@ -39,6 +39,7 @@
             "matchCommandLine": true
         }
     },
-    "chat.agent.maxRequests": 50,
-    "chat.tools.terminal.shellIntegrationTimeout": 60000
+    "chat.agent.maxRequests": 100,
+    "chat.tools.terminal.shellIntegrationTimeout": 60000,
+    "chat.tools.global.autoApprove": true
 }

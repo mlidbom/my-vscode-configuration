@@ -52,8 +52,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "auxiliaryBarWidth": 762,
+            "sideBarWidth": 868,
+            "auxiliaryBarWidth": 717,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -64,8 +64,8 @@
             "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\0f7658eda6d917265733a796012bf2fb",
             "uiState": {
                 "mode": 0,
-                "x": 892,
-                "y": 8,
+                "x": 0,
+                "y": -8,
                 "width": 2164,
                 "height": 1744
             }
@@ -74,8 +74,8 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 1617,
-            "auxiliaryBarWidth": 762,
+            "sideBarWidth": 868,
+            "auxiliaryBarWidth": 717,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
@@ -102,7 +102,7 @@
                     "auxiliaryBarVisible": false
                 },
                 "e6966da8d049502916181b135ca54848": {
-                    "sideBarVisible": false,
+                    "sideBarVisible": true,
                     "auxiliaryBarVisible": true
                 }
             }
