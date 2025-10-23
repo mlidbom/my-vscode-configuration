@@ -10,7 +10,8 @@
             "file:///c%3A/Users/magnu/PycharmProjects/MagnusAnkiAddon": "python",
             "file:///c%3A/Dev/typed-linq-collections": "python",
             "file:///c%3A/Dev/Compze/src": "dotnet",
-            "file:///c%3A/Dev/Compze": "dotnet"
+            "file:///c%3A/Dev/Compze": "dotnet",
+            "file:///c%3A/Dev/Compze/src/Compze/Utilities/Testing/XUnit": "dotnet"
         },
         "emptyWindows": {}
     },
@@ -52,8 +53,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 868,
-            "auxiliaryBarWidth": 717,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 820,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -64,18 +65,18 @@
             "backupPath": "C:\\Users\\magnu\\AppData\\Roaming\\Code\\Backups\\0f7658eda6d917265733a796012bf2fb",
             "uiState": {
                 "mode": 0,
-                "x": 0,
-                "y": -8,
-                "width": 2164,
-                "height": 1744
+                "x": 816,
+                "y": 412,
+                "width": 1440,
+                "height": 904
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 868,
-            "auxiliaryBarWidth": 717,
+            "sideBarWidth": 368,
+            "auxiliaryBarWidth": 820,
             "workspaces": {
                 "b6713e03425e10f58f3868b9a8a450cd": {
                     "sideBarVisible": true,
@@ -94,7 +95,7 @@
                     "auxiliaryBarVisible": true
                 },
                 "662729a9d1cf8ac4b6ba5ac38911ea75": {
-                    "sideBarVisible": false,
+                    "sideBarVisible": true,
                     "auxiliaryBarVisible": true
                 },
                 "ba023429fa17721a1d6339836206ac45": {
@@ -102,7 +103,15 @@
                     "auxiliaryBarVisible": false
                 },
                 "e6966da8d049502916181b135ca54848": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "c124795fa57b21f425945e017b77d0ee": {
                     "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "57d5ba6d0a3aca9f4e13dafa8e13e95d": {
+                    "sideBarVisible": false,
                     "auxiliaryBarVisible": true
                 }
             }
